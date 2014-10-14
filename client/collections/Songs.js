@@ -2,6 +2,12 @@
 var Songs = Backbone.Collection.extend({
 
   model: SongModel
-  // Uncaught ReferenceError: SongModel is not defined 
 
 });
+
+
+/* Called in:
+SongQueue (extends Songs)
+
+
+*/
